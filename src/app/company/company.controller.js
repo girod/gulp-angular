@@ -15,4 +15,3 @@ angular.module('company', ['ui.router', 'companydetail', 'companyidentity'])
       }
     });
   });
-7
