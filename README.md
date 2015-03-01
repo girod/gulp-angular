@@ -23,4 +23,4 @@ bower install
 ### Use Gulp tasks
 * Use the same tasks than [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular "lien vers generator-gulp-angular")
 
-* `gulp config --env=development && gulp serve` to launch a browser sync server on your source files
+* `gulp config --env=development && gulp serve` to launch a browser sync server on your source files injecting environment (env)
