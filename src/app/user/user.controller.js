@@ -1,12 +1,12 @@
-angular.module('people', [])
+angular.module('user', [])
   .config(function ($stateProvider) {
-    $stateProvider.state('people', {
-      url: '/people',
-      templateUrl: 'app/people/people.tpl.html',
-      controller: 'PeopleCtrl',
-      controllerAs: 'people'
+    $stateProvider.state('user', {
+      url: '/user',
+      templateUrl: 'app/user/user.tpl.html',
+      controller: 'UserCtrl',
+      controllerAs: 'user'
     });
   })
-  .controller('PeopleCtrl', function ($scope) {
-    console.log('iiii');
+  .controller('UserCtrl', function ($scope) {
+    console.log('user controller');
   });

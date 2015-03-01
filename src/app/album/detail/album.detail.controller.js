@@ -1,11 +1,11 @@
-angular.module('companydetail', [
+angular.module('albumdetail', [
   'ui.router',
-  'companydetail.service'
+  'albumdetail.service'
 ])
-.controller('companyDetailController', function (companyDetailService) {
+.controller('albumDetailController', function (albumDetailService) {
     console.log('detailController');
     var self = this;
-    companyDetailService.getDetails().then(function(details){
+    albumDetailService.getDetails().then(function(details){
       console.log(details);
     });
   });

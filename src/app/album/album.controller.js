@@ -1,16 +1,16 @@
-angular.module('company', ['ui.router', 'companydetail', 'companyidentity'])
+angular.module('album', ['ui.router', 'albumdetail', 'albumidentity'])
   .config(function($stateProvider){
-    $stateProvider.state('company', {
-      url: '/company',
+    $stateProvider.state('album', {
+      url: '/album',
       views: {
-        '': {templateUrl: 'app/company/company.tpl.html'},
-        'infos@company': {
-          templateUrl: 'app/company/identity/company.identity.tpl.html',
-          controller: 'companyIdentityController'
+        '': {templateUrl: 'app/album/album.tpl.html'},
+        'infos@album': {
+          templateUrl: 'app/album/identity/album.identity.tpl.html',
+          controller: 'albumIdentityController'
         },
-        'details@company': {
-          templateUrl: 'app/company/detail/company.detail.tpl.html',
-          controller: 'companyDetailController'
+        'details@album': {
+          templateUrl: 'app/album/detail/album.detail.tpl.html',
+          controller: 'albumDetailController'
         }
       }
     });

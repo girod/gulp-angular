@@ -1,7 +1,7 @@
-angular.module('companydetail.service', [
+angular.module('albumdetail.service', [
   'restangular'
 ])
-  .factory('companyDetailService', function (Restangular) {
+  .factory('albumDetailService', function (Restangular) {
       return{
         getDetails: function(){
           console.log('detailService');

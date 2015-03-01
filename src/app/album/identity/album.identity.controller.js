@@ -1,6 +1,6 @@
-angular.module('companyidentity', [
+angular.module('albumidentity', [
   'ui.router'
 ])
-  .controller('companyIdentityController', function ($scope) {
-    console.log('identity');
+  .controller('albumIdentityController', function ($scope) {
+    console.log('identity controller');
   });
